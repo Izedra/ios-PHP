@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84733F0B202CAD7800D2343F /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84733F0A202CAD7800D2343F /* HomeModel.swift */; };
+		84733F0D202CAE0600D2343F /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84733F0C202CAE0600D2343F /* LocationModel.swift */; };
 		848C89612028A91800DD366D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C89602028A91800DD366D /* AppDelegate.swift */; };
 		848C89632028A91800DD366D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C89622028A91800DD366D /* FirstViewController.swift */; };
 		848C89652028A91800DD366D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C89642028A91800DD366D /* SecondViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84733F0A202CAD7800D2343F /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		84733F0C202CAE0600D2343F /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		848C895D2028A91800DD366D /* tabbedapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabbedapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848C89602028A91800DD366D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848C89622028A91800DD366D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				848C89692028A91900DD366D /* Assets.xcassets */,
 				848C896B2028A91900DD366D /* LaunchScreen.storyboard */,
 				848C896E2028A91900DD366D /* Info.plist */,
+				84733F0A202CAD7800D2343F /* HomeModel.swift */,
+				84733F0C202CAE0600D2343F /* LocationModel.swift */,
 			);
 			path = tabbedapp;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84733F0B202CAD7800D2343F /* HomeModel.swift in Sources */,
 				848C89652028A91800DD366D /* SecondViewController.swift in Sources */,
 				848C89612028A91800DD366D /* AppDelegate.swift in Sources */,
+				84733F0D202CAE0600D2343F /* LocationModel.swift in Sources */,
 				848C89632028A91800DD366D /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
